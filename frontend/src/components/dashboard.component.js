@@ -13,7 +13,7 @@ export const Dashboard = () => {
         } else {
             navigate('/login');
         }
-    }, []);
+    }, [user]);
     
     return(
         <div>
